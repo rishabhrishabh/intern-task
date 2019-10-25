@@ -1,0 +1,370 @@
+ *{
+	margin:0;
+	text-decoration:none;
+}
+hr{
+	margin-top:0;
+}
+body{
+	background-color:#E8761F;
+}
+#wrapper {
+	height:100%;
+	width:100%;
+}
+/*top div for language select*/
+#language{		
+	height:30px;
+	width:100%;
+	background-color:#E8761F;
+	position:fixed;
+	z-index:100;
+	top:0px;
+}
+#header{
+	width:100%;
+	position:fixed;
+	z-index:99;
+	top:22px;
+}
+#header hr{
+	border-top:5px solid rgba(255,255,255,0.7);
+	margin:auto;
+	margin-top:-20px;
+	margin-bottom:-20px;
+}
+/*title and logo div*/
+#title{
+	background-color:white;
+	display:block;
+	width:100%;
+	
+}
+/*logo image*/
+#logo{
+	height:50px;
+	width:50px;
+	display:inline;
+	margin:5% 5% 1% 5%;
+}
+/*title*/
+#title h1{
+	display:inline;
+	position:fixed;
+	color:#E8761F;
+	font-size:20px;
+	margin:0;
+	padding:0;
+	left:30%;
+	top:38px;
+}
+/*nav bar************************************************************************************************/
+/*entire nav bar*/
+.dropdown-menu{
+	position:static;
+	display:block;
+	clear:both;
+	background-color:#f2f2f2;
+	border: none;
+	width:100%;
+	text-align: center;
+	padding:10px;
+	
+}
+.dropdown-toggle{
+	position:static;
+	display:block;
+	background-color:white;
+	width:100%;
+	text-align: center;
+	padding:10px;
+}
+
+.dropdown, .dropup{
+	position:static;
+}
+li.active{
+	text-align:center;
+	background-color:white;
+	padding:10px;
+}
+/*Content Page Styles***********************************************************************/
+.whiteContentBox{
+	background-color:white;
+	width:100%;
+	height:100%;
+}
+.pageHeading{
+	padding-top:25px;
+	color:#d06616;
+}
+.headingUnderline{
+	margin:auto;
+	color:#d06616;
+	margin-top:0;
+	margin-bottom:30px;
+	border-top:5px solid #d06616;
+	width:40%;
+}
+.headingUnderline{
+	margin:auto;
+	color:#d06616;
+	margin-top:0;
+	margin-bottom:50px;
+	border-top:5px solid #d06616;
+	width:40%;
+}
+.contentContainer{
+	margin:auto;
+	width:90%;
+}
+.rightContent h3{
+	margin-top:0;
+}
+.rightContent p{
+	margin-bottom:0;
+}
+/*footer css*************************************************************/
+/*horezontal ruler*/
+#footer hr{
+	color:white;
+    margin-bottom: 0.5em;
+    border-style: solid;
+    border-width: 2px;
+}
+.footerImg{
+	display:inline;
+	float: right;
+	width:30px;
+	height:30px;
+	padding-left:10px;
+	margin-right:10px;
+}
+#footer h4{
+	display:inline;
+	float: left;
+	margin:5px;
+	clear:left;
+	color:white;
+}
+
+#footer{
+	clear:both;
+	width:100%;
+	background-color:#E8761F;
+	padding-left:3%;
+	padding-right:3%;
+}
+/*About Us************************************************************************/
+.aboutTable, th, td {
+    border: 1px solid black;
+}
+.aboutTable th, td {
+	padding:5px;
+	width:150px;
+}
+.aboutTable tr:nth-child(-n+1){
+	background-color:rgba(208, 102, 22,0.7);
+}
+#map{
+	width:300px;
+	height:300px;
+	border: 5px solid rgba(208, 102, 22,0.5);
+}
+#aboutImg{
+	width:300px;
+	height:300px;
+	border: 5px solid rgba(208, 102, 22,0.5);
+	margin:0;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#aboutContent{
+	margin-top:40px;
+}
+#aboutContent p{
+	margin-left:40px;
+}
+#aboutContent h3{
+	color:#d06616;
+}
+#aboutTableDiv{
+	margin-top:40px;
+	margin-bottom:20px;
+}
+#aboutTableDiv h3{
+	color:#d06616;
+	margin-bottom:20px;
+}
+/*Contact Us**********************************************************************/
+#contactForm{
+	font-weight:bold;
+}
+#contactForm input[type = submit], input[type = reset]{
+	margin:5px;
+}
+/**Index Page*****************************************************************************/
+/*photo slider*/
+#ps{
+	border: 30px solid white;  
+	margin:0 auto;
+	max-width: 1460px; 
+	margin-bottom: 20px;
+	width:95%;
+}
+
+#indexContent{
+	margin:auto;
+	margin-top:100px;
+	margin-bottom:100px;
+}
+#orangeContentBox{
+	background-color:rgba(208, 102, 22,0.7);
+	padding:10px;
+	text-align:center;
+	margin-top: 80px;
+	margin-bottom: 40px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.indexEventImg{
+	width:40%;
+	height:40%;
+	margin:2%;
+	display: inherit;
+}
+
+.EventImg{
+	padding:10px 0;
+	height: 250px;
+}
+
+
+.EventTitle{
+	color: #fff;
+	font-weight:bold;
+	font-size: 19px;
+}
+
+.EventText{
+	color: #fff;
+}
+
+.EventsTable{
+	width:100%;
+	border: none;
+}
+
+.EventsTable td{
+	width: 240px;
+	border: none;
+	padding:20px;
+	display:block;
+	text-align:center;
+}
+
+.indexEventTitle h3{
+color:white;
+text-align:center;
+}
+.indexEventTitle hr{
+	color:white;
+	width:200px;
+	margin:auto;
+}
+.indexWhiteBox{
+	width:100%;
+	background-color:rgba(255,255,255,0.7);
+	padding:10px;
+	border-radius: 5px;
+	display:inline-block;
+	margin-top:80px;
+}
+
+.indexWhiteBox h4{
+	color:#d06616;
+}
+.indexWhiteBox hr{
+	color:#d06616;
+	margin-top:0;
+	margin-bottom:10px;
+	border-top:1px solid #d06616;
+}
+
+/**Events*****************************************************************************/
+.white-border{
+	border: 4px solid #fff;
+}
+.white-text{
+	color: #fff;
+}
+/*mobile nav menu************************************************************************/
+.slicknav_menutxt {
+color:white;
+text-decoration:none;
+display:block;
+padding:10px;
+margin-right:90%;
+}
+.js .nav {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+		position:fixed;
+		z-index:100;
+		top:100px;
+	}
+a.slicknav_btn.slicknav_open{
+	text-decoration:none;
+
+}
+a.slicknav_btn.slicknav_collapsed{
+	text-decoration:none;
+}
+a.dropdown-toggle{
+	color:#d06616;
+}
+li.active a{
+	color:#d06616;
+	font-size:120%;
+	letter-spacing:2px;
+}
+li.dropdown.slicknav_collapsed.slicknav_parent{
+	list-style:none;
+	background-color:white;
+	font-size:120%;
+	letter-spacing:2px;
+}
+li.dropdown.slicknav_parent.slicknav_open{
+	color:white;
+}
+
+.slicknav_arrow{
+display: none;	
+}
+.slicknav_nav{
+	width:100%;
+	list-style:none;
+	margin-left:-5%;
+}
+.slicknav_menu{
+	width:100%;
+	border-bottom: 2px solid white;
+	background-color:#d06616;
+}
+.navbar-inverse{
+	background-color:#d06616;
+	border-color:#d06616;
+}
+.dropdown-menu>li>a{
+	color:#d06616;
+}
+.slicknav_item .slicknav_row .open .dropdown-toggle{
+	text-decoration:none;
+}
+/*****************************************/
+.spacerDiv{
+	clear:both;
+}
